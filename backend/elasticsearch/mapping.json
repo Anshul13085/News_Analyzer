@@ -1,0 +1,55 @@
+{
+  "mappings": {
+    "properties": {
+      "title": {
+        "type": "text",
+        "analyzer": "standard"
+      },
+      "author": {
+        "type": "keyword"
+      },
+      "source_url": {
+        "type": "keyword"
+      },
+      "source_name": {
+        "type": "keyword"
+      },
+      "published_date": {
+        "type": "date"
+      },
+      "language": {
+        "type": "keyword"
+      },
+      "original_text": {
+        "type": "text",
+        "analyzer": "standard"
+      },
+      "translated_text": {
+        "type": "text",
+        "analyzer": "standard"
+      },
+      "summary": {
+        "type": "text",
+        "analyzer": "standard"
+      },
+      "sentiment": {
+        "type": "keyword" 
+      },
+      "sentiment_score": {
+        "type": "float"
+      },
+      "bias_category": {
+        "type": "keyword"
+      },
+      "bias_score": {
+        "type": "float"
+      },
+      "tags": {
+        "type": "keyword"
+      },
+      "scraped_at": {
+        "type": "date"
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+feedparser
+newspaper3k
+trafilatura
+beautifulsoup4
+langdetect
+transformers
+spacy
+dateutil
+pydantic
+elasticsearch
